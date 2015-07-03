@@ -55,4 +55,14 @@ class TextRun extends AbstractContainer
     {
         return $this->paragraphStyle;
     }
+
+    /**
+     * Get Sub Elements from TextRun
+     *
+     * @return array
+     */
+    public function getSubElements()
+    {
+        return $this->elements;
+    }
 }
